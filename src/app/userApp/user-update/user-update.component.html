@@ -1,0 +1,60 @@
+<div class="card">
+    <div class="card-header"> User Update</div>
+    <div class="card-body">
+
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">firstName</label>
+                    <input type="text" class="form-control" [(ngModel)]="userObj.firstName" name="firstName"
+                        placeholder="firstName">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">lastName</label>
+                    <input type="text" class="form-control" [(ngModel)]="userObj.lastName" name="lastName"
+                        placeholder="lastName">
+                </div>
+
+
+
+
+
+
+
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">dateOfBirth</label>
+                    <input type="date" class="form-control" [(ngModel)]="userObj.dateOfBirth" name="dateOfBirth"
+                        placeholder="dateOfBirth">
+                </div>
+
+
+
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">phoneNumber</label>
+                    <input type="text" class="form-control" [(ngModel)]="userObj.phoneNumber" name="phoneNumber"
+                        placeholder="phoneNumber">
+                </div>
+
+
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">email</label>
+                    <input type="text" class="form-control" [(ngModel)]="userObj.email" name="email"
+                        placeholder="email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">bankAccountNumber</label>
+                    <input type="text" class="form-control" [(ngModel)]="userObj.bankAccountNumber"
+                        name="bankAccountNumber" placeholder="bankAccountNumber">
+                </div>
+
+            </div>
+
+
+
+
+
+            <button type="button" class="btn btn-primary">Update user</button>
+        </form>
+
+    </div>
+</div>
